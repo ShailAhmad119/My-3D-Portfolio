@@ -2,12 +2,10 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaYoutube,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
-import HoverLinks from "./HoverLinks";
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -47,7 +45,6 @@ const SocialIcons = () => {
       };
 
       document.addEventListener("mousemove", onMouseMove);
-
       updatePosition();
 
       return () => {
@@ -61,7 +58,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/akashrmalhotra"
+            href="https://github.com/ShailAhmad119"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,7 +67,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/akashrmalhotra/"
+            href="https://www.linkedin.com/in/sahil-ahmedd"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,16 +76,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.youtube.com/@Leftbraincoder"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaYoutube />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
+            href="https://www.instagram.com/sahilzargar19/"
             target="_blank"
             rel="noreferrer"
           >
@@ -97,12 +85,11 @@ const SocialIcons = () => {
         </span>
       </div>
       <a
-        className="resume-button"
-        href="/Akash_Malhotra.pdf"
+        href="/Shail_Ahmad.pdf"
         target="_blank"
         rel="noreferrer"
+        data-cursor="disable"
       >
-        <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
