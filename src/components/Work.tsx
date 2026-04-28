@@ -8,7 +8,7 @@ const projects = [
     title: "AI Resume Analyzer",
     category: "AI-Powered Web Application",
     tools: "React, AI API, PDF/DOCX Parsing, JavaScript",
-    image: "/images/work3.jpg",
+    image: "/images/AIanalyser.png",
     link: "https://ai-resume-analyzer-vbme.onrender.com/",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     title: "Google Keep Clone",
     category: "React Single Page Application",
     tools: "React, Context API, Local Storage, Tailwind CSS",
-    image: "/images/keep.jpg",
+    image: "/images/keeper.png",
     link: "https://google-keep-clone-jgty.onrender.com",
   },
 ];
